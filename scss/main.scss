@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 1.6rem;
 }
 
@@ -217,6 +217,37 @@ footer {
 .projects .btn {
 	font-size: 1.4rem;
 	text-transform: uppercase;
+}
+
+
+// ========== CONTACT SECTION -===========
+
+.contact-hero {
+	background-image: url("../img/contact/contact-hero.jpg");
+	background-position: 0 50%;
+}
+.contact h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+.contact-logo{
+	font-size: 3rem;
+}
+
+.contact input, .contact select, .contact textarea{
+	font-size: 1.6rem;
+}
+
+.contact .btn{
+	padding: 0.3em 0.8em;
+	font-size: 2rem;
+}
+
+.contact-map iframe{
+	width: 100%;
+	min-height: 400px;
 }
 
 @media (min-width: 992px) {
